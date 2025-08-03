@@ -23,3 +23,12 @@ variable "ec2_instance_name" {
   type = string
   description = "The name of the EC2"
 }
+
+variable "aws_subnet_id" {
+  type = string
+  description = "The subnet where the EC2 should be hosted"
+}
+
+variable "aws_vpc_id" {
+  type = string
+}
