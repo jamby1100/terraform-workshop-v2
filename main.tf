@@ -1,5 +1,10 @@
 
-
+/**
+ * # Flask Product App
+ * 
+ * This is the main template for the flask product app
+ * We have much documentation coming soon
+ */
 
 resource "tls_private_key" "ssh_key" {
   algorithm = "RSA"
